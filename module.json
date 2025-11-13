@@ -1,10 +1,10 @@
 {
   "id": "daggerheart-ru",
-  "title": "Daggerheart — Русификация (UI)",
+  "title": "Daggerheart — Русификация (UI) (форк)",
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
-  "version": "0.5.4",
-  "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/daggerheart-ru/master/module.json",
-  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.5.4/daggerheart-ru.zip",
+  "version": "0.6.0",
+  "manifest": "https://raw.githubusercontent.com/IamMushroom/daggerheart-ru/master/module.json",
+  "download": "https://github.com/IamMushroom/daggerheart-ru/releases/download/v0.5.4/daggerheart-ru.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -15,6 +15,9 @@
     },
     {
       "name": "Lans"
+    },
+    {
+      "name": "IamMushroom"
     }
   ],
   "relationships": {
