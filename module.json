@@ -4,7 +4,7 @@
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
   "version": "0.6.0",
   "manifest": "https://raw.githubusercontent.com/IamMushroom/daggerheart-ru/master/module.json",
-  "download": "https://github.com/IamMushroom/daggerheart-ru/releases/download/v0.5.4/daggerheart-ru.zip",
+  "download": "https://github.com/IamMushroom/daggerheart-ru/releases/download/v0.6.0/daggerheart-ru.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
