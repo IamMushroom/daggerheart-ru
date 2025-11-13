@@ -611,16 +611,16 @@
         "rerollDice": "Перебросить кости"
       },
       "TagTeamSelect": {
-          "title": "Tag Team Roll",
+          "title": "Совместный бросок",
           "leaderTitle": "Инициатор",
           "membersTitle": "Участники",
           "partyTeam": "Группа",
           "hopeCost": "Цена",
           "initiatingCharacter": "Инициатор",
-          "linkMessageHint": "Сделай бросок из своего листа персонажа Чтобы связать его с Tag Team Roll",
+          "linkMessageHint": "Сделай бросок из своего листа персонажа, чтобы связать его с совместным броском",
           "damageNotRolled": "Бросок урона в чате ещё не сделан",
           "insufficientHope": "У инициатора недостаточно надежды",
-          "createTagTeam": "Создать TagTeam Roll",
+          "createTagTeam": "Создать совместный бросок",
           "chatMessageRollTitle": "Бросок"
       }
     },
@@ -2458,6 +2458,15 @@
       "ResetSettings": {
         "resetConfirmationTitle": "Сброс настроек",
         "resetConfirmationText": "Вы уверены, что хотите сбросить {settings}?"
+      },
+      "Scene": {
+          "FIELDS": {
+              "rangeMeasurement": {
+                  "setting": { "label": "Настройки" }
+              }
+          },
+          "disabledText": "Измерения Daggerheart отключены в Системных Настройках - Вариативные правила",
+          "rangeMeasurement": "Измерение расстояний"
       }
     },
     "UI": {
