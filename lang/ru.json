@@ -20,7 +20,8 @@
       "character": "Персонаж",
       "companion": "Компаньон",
       "adversary": "Противник",
-      "environment": "Эпизод"
+      "environment": "Эпизод",
+      "party": "Группа"
     }
   },
   "CONTROLS": {
@@ -63,6 +64,14 @@
           "exact": "Максимальный тир Звериной формы",
           "exactHint": "Используется уровень персонажа, если значение пустое",
           "label": "Звериная форма"
+        },
+        "damage": {
+            "multiplier": "Множитель",
+            "flatMultiplier": "Постоянный множитель"
+        },
+        "general": {
+            "customFormula": "Своя формула",
+            "formula": "Формула"
         },
         "displayInChat": "Показать в чате"
       },
@@ -385,6 +394,25 @@
         "title": "Удалить {type} — {name}",
         "text": "Вы уверены, что хотите удалить {name}?"
       },
+      "CountdownEdit": {
+          "title": "Измение счётчика",
+          "viewTitle": "Счётчики",
+          "editTitle": "Изменить счётчик",
+          "newCountdown": "Новый счётчик",
+          "removeCountdownTitle": "Удалить счётчик",
+          "removeCountdownText": "Вы уверены, что хотите удалить счётчик: {name}?",
+          "current": "Текущее",
+          "max": "Максимум",
+          "currentCountdownValue": "Текущее: {value}",
+          "currentCountdownMax": "Максимум: {value}",
+          "category": "Категория",
+          "type": "Тип",
+          "defaultOwnershipTooltip": "Владение счётчиком по-умолчанию",
+          "hideNewCountdowns": "Скрыть новые счётчики"
+      },
+      "DaggerheartMenu": {
+          "title": "Инструменты ГМ"
+      },
       "DamageReduction": {
         "armorMarks": "Метки брони",
         "armorWithStress": "Потратьте 1 стресс, чтобы использовать дополнительную метку",
@@ -452,8 +480,14 @@
       },
       "HUD": {
         "tokenHUD": {
-          "genericEffects": "Эффекты Foundry"
+          "genericEffects": "Эффекты Foundry",
+          "depositPartyTokens": "Вложить токены группы",
+          "retrievePartyTokens": "Раскрыть токены группы"
         }
+      },
+      "ImageSelect": {
+          "title": "Выбор изображения",
+          "selectImage": "Выбрать изображение"
       },
       "Levelup": {
         "actions": {
@@ -575,6 +609,19 @@
       "ResourceDice": {
         "title": "Ресурс {name}",
         "rerollDice": "Перебросить кости"
+      },
+      "TagTeamSelect": {
+          "title": "Tag Team Roll",
+          "leaderTitle": "Инициатор",
+          "membersTitle": "Участники",
+          "partyTeam": "Группа",
+          "hopeCost": "Цена",
+          "initiatingCharacter": "Инициатор",
+          "linkMessageHint": "Сделай бросок из своего листа персонажа Чтобы связать его с Tag Team Roll",
+          "damageNotRolled": "Бросок урона в чате ещё не сделан",
+          "insufficientHope": "У инициатора недостаточно надежды",
+          "createTagTeam": "Создать TagTeam Roll",
+          "chatMessageRollTitle": "Бросок"
       }
     },
     "CLASS": {
@@ -2449,6 +2496,17 @@
           "abilityCheckTitle": "Проверка  {ability}"
         },
         "featureTitle": "Классовое свойство",
+        "groupRoll": {
+            "title": "Групповой бросок",
+            "leader": "Лидер",
+            "partyTeam": "Группа",
+            "team": "Команда",
+            "selectLeader": "Выбери лидера",
+            "selectMember": "Выбери участника",
+            "rerollTitle": "Перебросить групповой бросок",
+            "rerollContent": "Вы уверены, что хотите перебросить вашу проверку {trait}?",
+            "rerollTooltip": "Перебросить"
+        },
         "healingRoll": {
           "title": "Лечение - {damage}",
           "heal": "Вылечить",
